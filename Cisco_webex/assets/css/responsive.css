@@ -1,0 +1,376 @@
+.virtual_meeting_mweb {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        width: 90%;
+
+    }
+
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .virtual_meeting {
+        display: none;
+    }
+
+    .virtual_meeting_mweb {
+        background-image: url('/assets/image/banner-3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        width: 100%;
+        float: left;
+        padding-bottom: 30px;
+    }
+
+    /* ---------------header section------------ */
+    .header_section {
+        width: 100%;
+    }
+
+    .logo {
+        width: 55%;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .redirect_a_tag {
+        width: 35%;
+        float: right;
+        margin-top: 0px;
+    }
+
+    .redirect_a_tag a {
+        padding: 2px 6px;
+        font-size: 12px;
+    }
+
+    /* ----------------banner Section----------------- */
+
+    .banner {
+        background-image: url('../image/mweb_banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .banner_content h1 {
+        font-size: 27px;
+    }
+
+    .banner_content {
+        text-align: left;
+    }
+
+    .banner_content .text {
+        font-size: 17px;
+    }
+
+    .tick img {
+        width: 5%;
+    }
+
+   .guarantee-tick span{
+    width: 85%;
+    float: right;
+   }
+
+    .form_contanier {
+        width: 100%;
+        position: relative;
+        float: none;
+        display: inline-block;
+        margin-top: 25px;
+    }
+
+    .form-p-tag {
+        text-align: left;
+        font-size: 9px;
+    }
+
+    /* ------------virtual_meeting_mweb-------------- */
+    .virtual_meeting_heading h1 {
+        margin-top: 340px;
+        font-size: 24px;
+    }
+    .virtual_meeting_mweb .slick-dots li{
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+    .virtual_meeting_heading p {
+        font-size: 16px;
+    }
+
+    .virtual_meeting_content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .virtual_meeting_icon_content h1 {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .virtual_meeting_icon_content p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .slick-dots {
+        bottom: -25px !important;
+    }
+
+    /* --------------video_Conferencing---------------- */
+    .video_Conferencing_img {
+        text-align: center;
+    }
+
+    .video_Conferencing_img img {
+        max-width: 80%;
+    }
+
+    .video_Conferencing_content h1 {
+        font-size: 19px;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .video_Conferencing_content p {
+        text-align: center;
+        font-size: 17px;
+        padding-left: 0px;
+    }
+
+    .video_conference_a_tag {
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .video_conference_a_tag a {
+        font-size: 18px;
+        padding: 6px 35px;
+    }
+
+    /* ----------------webex_feature---------------------- */
+    .webex_feature_heading h1 {
+        font-size: 24px;
+    }
+
+    .webex_feature_heading p {
+        font-size: 17px;
+        padding: 10px 25px;
+    }
+
+    .tab .tab_links {
+        font-size: 14px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
+    .tab .tab_links.active {
+        text-underline-offset: 17px
+    }
+
+    /* -----------------video_conferencing_banner-------------- */
+    .video_conferencing_banner img {
+        max-width: 85%;
+        padding-bottom: 20px;
+    }
+
+    .conferencing_banner_content h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .conferencing_banner_content p br {
+        display: none;
+    }
+
+    .conferencing_banner_content p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .get_free_demo_a_tag {
+        text-align: center;
+    }
+
+    .get_free_demo_a_tag a {
+        font-size: 14px;
+    }
+
+    /* --------------.happy_customers_background------------------ */
+    .happy_customers_background {
+        background-image: url('/assets/image/banner-4-mweb.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 0px;
+    }
+    .happy_customers_background .slick-dots {
+        bottom: -50px !important;
+    }
+    .happy_customers_background .slick-dots li{
+        width: 10px !important;
+        height: 10px !important;
+    }
+        
+
+    .happy_customers_background h1 {
+        font-size: 22px;
+    }
+
+    .testimonial_background {
+        height: 190px;
+    }
+
+    .testimonial_content p {
+        padding: 20px;
+        font-size: 13px;
+    }
+
+    .testimonial_img-1 img {
+        left: 20px;
+        top: 20px;
+    }
+
+    .customer_name-1 {
+        font-size: 12px;
+        top: -30px;
+        left: 90px;
+        text-align: left;
+    }
+    .customer_name br{
+        display: block;
+    }
+    .customer_name-1 br{
+        display: block;
+    }
+
+    .customer_name-1 img {
+        max-width: 60%;
+    }
+
+    .testimonial_img img {
+        left: 20px;
+        top: 0px;
+    }
+
+    .customer_name {
+        font-size: 12px;
+        top: 2px;
+        left: 37px;
+        text-align: left;
+    }
+
+    .customer_name img {
+        max-width: 60%;
+    }
+
+    /* -----------------.footer---------------------- */
+
+    .footer_heading {
+        width: 100%;
+    }
+
+    .call_icon {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .mail_icon {
+        width: 100%;
+    }
+
+    .footer_heading h1 {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    /* ---------------------webex_feature_section----------------- */
+    .webex_feature_table a {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .tabcontent {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .feature_column_heading {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+    }
+
+    .feature_column {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+    }
+
+    .software_expert {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        font-size: 9px;
+    }
+
+    .webex_feature_table td {
+        font-size: 9px;
+        padding: 9px;
+    }
+
+    .webex_feature_table td br {
+        display: none;
+    }
+
+    .webex_feature_table th {
+        padding: 13px 26px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .webex_feature_table img {
+        max-width: 15%;
+    }
+
+    tr:last-child td {
+        height: 60px;
+    }
+
+}
